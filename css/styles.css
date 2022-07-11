@@ -191,7 +191,7 @@ color: var(--accent-color);
     background-image: url(../images/mail.svg);
 }
 
-.icon-smartphone {
+.icon-smartphone::before {
     width: 10px;
     height: 15px;
     background-image: url(../images/smartphone.svg);
@@ -269,6 +269,7 @@ color: var(--accent-color);
     content: "";
     height: 120px;
     margin-bottom: 30px;
+    border-radius: 4px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--bg-box-card);
@@ -288,14 +289,6 @@ color: var(--accent-color);
 
 .icon-astronaut::before {
     background-image: url(../images/astronaut.svg);
-}
-
-.advantages-img {
-    background: var(--bg-box-card);
-    padding: 25px 100px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    border-radius: 4px;
 }
 
 .advantages-title {
